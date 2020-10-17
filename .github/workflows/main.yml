@@ -1,0 +1,15 @@
+- name: Build Jenkins job
+  # You may pin to the exact commit or the version.
+  # uses: GoldenspearLLC/build-jenkins-job@ba59c17c14a8883af2d7f9a7c1153c1284f7c1c6
+  uses: GoldenspearLLC/build-jenkins-job@1.0.0
+  with:
+    # jenkins server url
+    jenkins-url: 
+    # token to access jenkins server
+    jenkins-token: 
+    # user name
+    user: 
+    # job/folder_name/job/job_name
+    job-path: 
+    # params to run the job. JSON string. i.e '{'param1': 'value1', 'param2': 'value2'}' 
+    job-params: # optional
